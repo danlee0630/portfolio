@@ -1,0 +1,56 @@
+body
+{
+background-image: url"C:\Users\danle\Downloads\VS Code\new folder\bgimage.jpg";
+background: color #000000;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 14px;
+border-style: dotted;
+height: fit-content;
+width: page;
+}
+
+h1
+{
+color: orange;
+text-align: center;
+font-size: 40px;
+border-width: 30px;
+}
+
+#header
+{
+height: 50px;
+background-color: black;
+}
+
+#panel1
+{
+height: 400px;
+width: 200px;
+float:left;
+background-color: blue;
+font-size: 16px;
+text-align: center;
+}
+
+#panel2
+{
+height: 400px;
+width: 100px;
+float:right;
+background-color:purple;
+text-align: center;
+}
+
+#maincontent
+{
+height: 400px;
+background-color:yellow;
+}
+
+#footer
+{
+height: 100px;
+float:bottom;
+background-color:green;
+}
