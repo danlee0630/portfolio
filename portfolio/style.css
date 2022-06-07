@@ -1,0 +1,142 @@
+#nav {
+  background-color: #222;
+}
+
+body {
+  font-family: "Oswald", serif;
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.mainFrame {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+}
+
+.mainFrame h1,
+.mainFrame .h1 {
+  color: inherit;
+}
+
+.mainFrame p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: oblique;
+}
+
+.mainFrame > hr {
+  border-top-color: #d5d5d5;
+}
+
+.container .mainFrame,
+.container-fluid .mainFrame {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+
+.mainFrame .container {
+  max-width: 100%;
+}
+
+
+#button
+  .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #999;
+    color: white;
+  }
+
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999;
+}
+footer .copyright {
+  width: 50%;
+  float: left;
+}
+@media (max-width: 600px) {
+  footer .copyright {
+    width: 100%;
+  }
+}
+footer .copyright p {
+  background: linear-gradient(90deg, rgb(0, 0, 0), #999);
+  font-size: 0.8em;
+  padding-left: 10%;
+  color: white;
+  font-size: 0.7em;
+  line-height: 70px;
+  letter-spacing: 1px;
+}
+@media (max-width: 600px) {
+  footer .copyright p {
+    text-align: center;
+    padding: 0;
+  }
+}
+footer .social {
+  width: 50%;
+  float: right;
+}
+@media (max-width: 600px) {
+  footer .social {
+    width: 100%;
+  }
+}
+footer .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+footer .social a:hover {
+  background-color: #222;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.linked {
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.git {
+  background-color: #8b8b8b;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.email {
+  background-color: #3DACDD;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.support {
+  background: linear-gradient(90deg, #999, #3DACAA);
+  font-size: 0.8em;
+  width: 40%;
+}
